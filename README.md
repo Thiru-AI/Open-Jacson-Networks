@@ -16,9 +16,15 @@ Visual components and Python
 ![image](https://user-images.githubusercontent.com/103921593/203239789-bc870dce-6727-487b-a0e2-4fc3f5114889.png)
 
 
-# Experiment:
-## Program:
+## Experiment:
+![output](15.jpg)
+![output](16.jpg)
+
+## Program
 ```
+Name : SV ROHIHTKUMAR
+Reg No: 212221230084
+
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))
 ser_time2=float(input("Enter the mean  inter service time of Lathe Machine 2 (in secs) :  "))
@@ -53,7 +59,6 @@ if (lam <  mu1) and (lam <  mu2) and (lam <  mu3):
     print("Average waiting time of an object in the conveyor S1 : %0.2f secs"%Wq1)
     print("Average waiting time of an object in the conveyor S2 : %0.2f secs"%Wq2)
     print("Average waiting time of an object in the conveyor S3 : %0.2f secs"%Wq3)
-    print("Average waiting time of an object in the overall system : %0.2f secs"%Wq)
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("----------------------------------------------------------------------")
@@ -61,10 +66,10 @@ print("----------------------------------------------------------------------")
 ```
 
 
-## Output:
-![multi](https://user-images.githubusercontent.com/93434149/204128929-a49b41bc-619d-49db-acb7-ea638e0ec33d.jpg)
-![image](https://user-images.githubusercontent.com/93434149/204128941-3763f962-67f7-4cd8-8180-e14ab1263637.png)
+## Output
 
-## Result:
-Thus the experiment executed sucessfully.
+![output](sw.png)
 
+## Result
+
+The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
